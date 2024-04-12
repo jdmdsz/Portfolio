@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-A simple portfolio website showcasing my skills and projects.
+A simple portfolio website from a college project.
 
 **Description:**
 
