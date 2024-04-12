@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+  margin: 30px 90px 5px 90px;
+  font-family:Montserrat, sans-serif;
+  background: radial-gradient(circle, rgba(3,48,48,1) 53%, rgba(3,74,74,1) 100%);
+  color:#F2F2F2;
+  font-size: 18px;
+  scroll-behavior:smooth;
+}
+@font-face{
+  font-family: Montserrat;
+  src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+ul{
+  list-style:none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 240px;
+  
+}
+.header-nav{
+  width: 420px;
+  display: flex;
+  align-items: center;
+  
+}
+.header-nome{
+  font-weight: 800;
+  font-size: 22px;
+  text-shadow: 0px 0px 100px white;
+  color: #f2f2f2;
+}
+.header-lista{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex: 1;
+  
+}
+a{
+  display:block;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+}
+
+header a:link{
+  color:#F2F2F2;
+  
+}
+a:visited{
+  color:#ACF4F4
+}
+header a:hover{
+  color:#ACF4F4;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: rgba(172, 244, 244, 0.1);
+}
+a:focus{
+  color:#00D42A;
+}
+a:active{
+  color:#FF9893;
+}
+header ul:hover{
+  border: transparent;
+ 
+}
+
+.fonte-18{
+  font-weight:normal;
+  font-size:18px;
+}
+.fonte-x{
+  font-size: 34px;
+  font-weight:normal;
+}
+
+.apresentação{
+  
+  width: 393px;
+  margin-bottom: 240px;
+}
+.img-apresentação img{
+  position: absolute;
+  height: auto;
+  bottom: 126px;
+  left:  650px;
+box-shadow: 0px 0px 5px 1px rgba(172,244,244,1);
+  }
+.img-apresentação img{
+  width: 600px;
+  height: auto;
+  border-radius: 100px;
+}
+
+h2{
+  border: solid 1px white;
+  display: inline-flex;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 3px 8px 3px 8px;
+  
+}
+#sobre-mim, #skills, #projetos, #experiencia{
+  margin-bottom: 120px;
+}
+.skills-lista{
+  display: flex;
+  justify-content: space-around;
+}
+.skills-lista img{
+  width: 50px;
+  margin-right: 5px;
+}
+.skill-css, .skill-html, .skill-javascript, .skill-ingles{
+  display: flex;
+  align-items: center;
+}
+
+.projeto-site img{
+  width: 300px;
+  height: auto;
+  border-radius: 50px;  
+  box-shadow: 0px 0px 5px 1px rgba(172,244,244,1);
+}
+.projeto-game img{
+  width: 300px;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 1px rgba(172,244,244,1);
+  
+}
+.projeto-game{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+.projeto-site{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  text-align: right;
+}
+
+.experiencias {
+  display:flex;
+}
+.experiencia-academica{
+  flex:1;
+}
+.experiencia-profissional{
+  flex:1;
+  border-left: 1px solid;
+  padding-left: 25px;
+}
+footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contatos{
+  display:flex;
+}
+.icones-footer img{
+  width:30px;
+}
+
+
